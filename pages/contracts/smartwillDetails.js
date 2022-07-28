@@ -40,7 +40,7 @@ class SmartWillDetails extends Component {
       };
     });
 
-    return <Card.Group items={items} />;
+    return <Card.Group items={items.reverse()} />;
   }
 
   render() {

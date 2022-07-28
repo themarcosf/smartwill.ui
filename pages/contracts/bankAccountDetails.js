@@ -70,7 +70,7 @@ class BankAccountDetails extends Component {
       },
     ];
 
-    return <Card.Group items={items.reverse()} />;
+    return <Card.Group items={items} />;
   }
 
   render() {
