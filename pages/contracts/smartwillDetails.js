@@ -47,7 +47,21 @@ class SmartWillDetails extends Component {
     return (
       <Layout>
         <div>
-          <p>Algum texto</p>
+          <p>
+            Obrigado pelo seu interesse em conhecer melhor a plataforma. Ainda
+            estamos em fase de desenvolvimento e testes, então as
+            funcionalidades disponíveis são limitadas e tem como objetivo apenas
+            oferecer uma vaga ideia do produto final. Caso queira conhecer
+            melhor o produto e se manter informado(a), não deixe de cadastrar
+            seu e-mail em nosso site. Feedbacks são apreciados.
+          </p>
+          <h3>Orientações de uso:</h3>
+          <ol>
+            <li>
+              Abaixo é possível incluir informações de contas bancárias no
+              smartwill. Basta clicar no botão e informar os dados necessários.
+            </li>
+          </ol>
           <Link
             route={`/contracts/${this.props.contractAddress}/newBankAccount`}
           >
